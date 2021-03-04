@@ -54,4 +54,4 @@ RUN go install -v -a github.com/oscarpfernandez/go-tesseract-ocr-service/cmd/ocr
 
 CMD /go/bin/ocr-service
 
-EXPOSE 80
+EXPOSE 8080

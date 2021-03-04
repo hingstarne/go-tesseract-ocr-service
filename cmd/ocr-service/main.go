@@ -34,7 +34,7 @@ func main() {
 	})
 
 	// Start server
-	err := http.ListenAndServe(":80", c.Handler(router))
+	err := http.ListenAndServe(":8080", c.Handler(router))
 	if err != nil {
 		logrus.Fatal("Error attempting to ListenAndServe: ", err)
 	}
